@@ -1,0 +1,23 @@
+.heading{
+    
+    color: solid black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+    .heading-h1 h1{
+        color:red;
+        text-align: center;
+    }
+
+.mathl p{
+color: black;
+font-family: 'Times New Roman', Times, serif;
+font-weight: normal;
+}
+.mathl header{
+    color: red;
+text-align: center;
+font-weight: bold;
+font-family: 'Times New Roman', Times, serif;
+}
+
