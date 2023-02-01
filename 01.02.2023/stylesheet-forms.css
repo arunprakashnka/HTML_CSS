@@ -1,0 +1,20 @@
+.heading header h1{
+    color: green;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.implementation header p{
+    color: green;
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.implementation form{
+    text-align: center;
+}
+.implementation p{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
