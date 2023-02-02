@@ -4,6 +4,12 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
 }
+.product_list_header h2{
+    color:deeppink;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
 .navbar{
     background-color: black;
     border-radius: 30px;
@@ -20,16 +26,38 @@
 }
 .navbar li a{
     padding: 3px 3px;
-    text-decoration: none;
+    text-decoration:none;
     color: white;
 }
 .navbar li a:hover{
     color: red
 }
-
-.navbar input{
-    border: 2px solid black;
-    border-radius: 14px;
-    padding: 3px 17px;
-    width: 129px;
+.product_list_table table{
+    border-collapse: collapse;
+    margin-left: auto;  
+    margin-right: auto;  
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    
 }
+.product_list_table thead tr{
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+.product_list_table th,td{
+    padding: 12px 15px;
+}
+.product_list_table tbody tr 
+{
+    border-bottom: 1px solid #dddddd;
+}
+.product_list_table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+.product_list_table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
