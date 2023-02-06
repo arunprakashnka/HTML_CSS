@@ -60,4 +60,53 @@
 .product_list_table tbody tr:last-of-type {
     border-bottom: 2px solid #009879;
 }
+.product_details header p{
+    color:deeppink;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size:larger;
 
+}
+.product-images header p{
+    color:deeppink;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size:larger;
+   
+}
+ #background{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    font-weight:500;
+    background-image: url('/home/arunnagappan/Desktop/HTML/department_store/HOMEPAGE/asserts/icon/paragrapgh-backgroundimage.jpg');
+
+}
+#product_image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.about header p{
+    color:deeppink;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size:larger;
+
+}
+.contact-us header p{
+    color:deeppink;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size:larger;
+
+}
+.contact-us p{
+    text-align: center;
+    
+}
