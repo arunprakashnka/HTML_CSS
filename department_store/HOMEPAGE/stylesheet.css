@@ -11,7 +11,7 @@
     font-weight: bold;
 }
 .navbar{
-    background-color: black;
+    background-color: orange;
     border-radius: 30px;
     overflow: hidden;
     
@@ -28,7 +28,9 @@
 .dropdown {
     float: left;
     overflow: hidden;
+    
   }
+
   
 .dropdown .drop_button{
     font-size: 16px;  
@@ -39,6 +41,7 @@
     background-color: inherit;
     font-family: inherit;
     margin: 0;
+   
 }
 .dropdown:hover .drop_button {
     color: red;
@@ -65,8 +68,26 @@
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
-
-      
+  #product_image {
+    
+    box-sizing: border-box;
+   
+  }
+  
+  #product_image .row {
+    display:flex;
+    align-items: baseline;
+    gap: 1%;
+   
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  #product_image .column {
+    flex: 33.33%;
+    padding: 5px;
+    border: 1px solid black;
+  } 
+  
 .navbar li a{
     padding: 3px 3px;
     text-decoration:none;
@@ -75,34 +96,12 @@
 .navbar li a:hover{
     color: red
 }
-.product_list_table table{
-    border-collapse: collapse;
-    margin-left: auto;  
-    margin-right: auto;  
-    font-size: 0.9em;
-    font-family: sans-serif;
-    min-width: 400px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-    
-}
-.product_list_table thead tr{
-    background-color: #009879;
-    color: #ffffff;
-    text-align: left;
-}
-.product_list_table th,td{
-    padding: 12px 15px;
-}
-.product_list_table tbody tr 
-{
-    border-bottom: 1px solid #dddddd;
-}
-.product_list_table tbody tr:nth-of-type(even) {
-    background-color: #f3f3f3;
-}
-.product_list_table tbody tr:last-of-type {
-    border-bottom: 2px solid #009879;
-}
+
+
+
+
+
+
 .product_details header p{
     color:deeppink;
     text-align: center;
@@ -112,7 +111,7 @@
 
 }
 .product-images header p{
-    color:deeppink;
+    color:blueviolet;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
@@ -126,12 +125,7 @@
     background-image: url('/home/arunnagappan/Desktop/HTML/department_store/HOMEPAGE/asserts/icon/paragrapgh-backgroundimage.jpg');
 
 }
-#product_image{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
+
 
 .about header p{
     color:deeppink;
@@ -152,4 +146,18 @@
 .contact-us p{
     text-align: center;
     
+}
+.product_category{
+    display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+ 
+}
+.product_category > div{
+    background-color: royalblue;
+    width: 400px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
 }
