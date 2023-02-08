@@ -1,3 +1,9 @@
+.true{
+  display:inline-grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
 .header h1{
     color:deeppink;
     text-align: center;
@@ -44,12 +50,19 @@ input[type=text], input[type=password] {
   }
   
   .container {
+   
     padding: 16px;
+    width:500px;
+    height:500px;
+    
   }
   
   span.psw {
     float: right;
     padding-top: 16px;
+  }
+  #flex{
+    
   }
   
  

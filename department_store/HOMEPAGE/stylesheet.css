@@ -151,13 +151,15 @@
     display: flex;
   flex-wrap: wrap;
   background-color: white;
- 
+  
 }
-.product_category > div{
+
+.product_category > div {
     background-color: royalblue;
     width: 400px;
     margin: 10px;
     text-align: center;
     line-height: 75px;
     font-size: 30px;
+    
 }
