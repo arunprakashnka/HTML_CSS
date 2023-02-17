@@ -1,20 +1,4 @@
-.main{
-    position:relative;
-  background-color: aqua;
-  background-image: url('https://thumbs.dreamstime.com/b/tour-bus-21182249.jpg');
-}
-.b1{
-    position:absolute;
-    top:10px;
-    background-color: azure;
-}
-.b3{
-    position:fixed;
-    right:0px;
-    background-color: blueviolet;
-}
-.b4{
-    position:sticky;
-    top:0;
-    background-color: burlywood;
+
+span.ingredient {
+    color: #f00;
 }
